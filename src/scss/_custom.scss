@@ -13,7 +13,32 @@ $azul: #367AA4;
 $negro: #000000;
 $blanco: #FFFFFF;
 
-
+@font-face {
+    font-family: 'Scotia';
+    src: url("../../src/fonts/Scotia_Bd.ttf") format("opentype") !important;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    font-family: "Scotia", sans-serif;
+  }
+  
+  body {
+    font-family: "Scotia", sans-serif !important;
+    font-size: 18px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 700;
+  }
 
 
 
