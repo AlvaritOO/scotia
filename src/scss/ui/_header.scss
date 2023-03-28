@@ -1,5 +1,6 @@
 @use '../custom' as *;
 
+
 .header-mobile {
     display: flex;
     flex-direction: row;
@@ -9,4 +10,56 @@
 
     width: 375px;
     height: 96px;
+}
+
+.img-cabecera {
+    width: 375px;
+    height: 320px;
+}
+
+.header--title-container {
+    position: absolute;
+    top: 190px;
+    left: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+}
+
+.header--button {
+    
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding: 12px 24px;
+        gap: 8px;
+        width: 163px;
+        height: 48px;
+        background: $r4;
+        border-radius: 8px;
+
+}
+
+.btn.btn-volver {
+    width: 150px;
+    border: 2px solid $r4;
+    border-radius: 8px;
+    color: $r4;
+
+    &:hover{
+        background-color: #F6F7F7;
+        color: $r1;
+    }
+}
+
+.card-text {
+    font-style: normal;
+    margin: 20px;
+    color: #000000;
 }

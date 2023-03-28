@@ -89,3 +89,31 @@ ul::-webkit-scrollbar {
 .navbar-toggler.collapsed .toggler-icon {
     background: $negro;
 }
+
+.nav-tab1 {
+    background-color: #FFFFFF;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+    width: 100%;
+
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+
+}
+
+.nav-tab1 div ul li.nav-item .nav-link {
+    padding: 8px 40px;
+}
+
+.nav-tab1 li a{
+    color: $g4;
+    border-bottom: 3px solid $g3;
+    color: $g4;
+}
+
+.nav-tab1 a.nav-link.active {
+    border-bottom: 3px solid $r1;
+    color: $r1;
+}

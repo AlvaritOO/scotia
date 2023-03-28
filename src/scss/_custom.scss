@@ -13,32 +13,45 @@ $azul: #367AA4;
 $negro: #000000;
 $blanco: #FFFFFF;
 
+$primary: $r1;
+$secondary: $g1;
+
+//Card
+$card-border-radius: 16px;
+
+//Botones
+$btn-border-radius: 8px;
+$btn-line-height: 24px;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: 'Scotia';
     src: url("../../src/fonts/Scotia_Bd.ttf") format("opentype") !important;
-  }
-  
-  html{
+}
+
+html{
     scroll-behavior: smooth;
     font-family: "Scotia", sans-serif;
-  }
-  
-  body {
+}
+
+body {
     font-family: "Scotia", sans-serif !important;
     font-size: 18px;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
+}
+
+h1, h2, h3, h4, h5 {
     font-weight: 700;
-  }
+}
 
 
 
