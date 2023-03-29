@@ -1,19 +1,15 @@
 @use '../custom' as *;
 
 .bottom {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 24px;
     gap: 30px;
-
     width: 375px;
     height: 80px;
-
     background: $g4;;
-
 }
 
 .text-bottom {
@@ -23,5 +19,4 @@
     line-height: 16px;
     text-align: right;
     color: $negro;
-
 }

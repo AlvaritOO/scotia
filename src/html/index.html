@@ -27,12 +27,12 @@
           <img src="../../build/img/svg/scotia-logo-red.svg" alt="Scotia">
         </a>
 
-        <div class="col-md-6 text-end d-none d-sm-block d-sm-none d-md-block">
+        <!--<div class="col-md-6 text-end d-none d-sm-block d-sm-none d-md-block">
           <a id="01-home-navbar-logo-bnp-paribas" href="#"><img src="../../build/img/svg/bnp.svg"
               class="logo-bnp mr-4" alt="BNP Paribas Cardif"></a>
           <a id="01-home-navbar-logo-corredora" href="#"><img src="../../build/img/svg/corredora-color.svg"
               class="logo-cslc ms-4" alt="Corredora de seguros la Camara"></a>
-        </div>
+        </div>-->
       </header>
     </div>
     <!--NavBar-->
@@ -50,8 +50,6 @@
               <span class="toggler-icon bottom-bar"></span>
             </button>
 
-           
-
           </div>
         </nav>
       </div>
@@ -62,6 +60,7 @@
 
 
   <main>
+    
     <section>
       <img src="../../build/img/Banner.png" alt="Scotia" class="img-cabecera">
       <div class="header--title-container">
@@ -72,7 +71,19 @@
 
     <section>
       <div>
-        <h2 class="titulo_seguro">Seguro disponibles</h2>
+        <h2 class="titulo_seguro fw-bold">Seguro disponibles</h2>
+      </div>
+    </section>
+
+    <section class="card-content-tres">
+      <div class="accordion mb-4" id="accordionFlushExample">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse" aria-expanded="false" aria-controls="flush-collapse">
+              <h5>Protección patrimonial</h5>
+            </button>
+          <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-heading"
+            data-bs-parent="#accordionFlushExample">
+          </div>
       </div>
     </section>
 
@@ -82,18 +93,15 @@
           <img src="../../build/img/svg/icons-tipo-seguro.svg" class="mt-4 mb-3" alt="...";>
         </a>
         <div class="card-body">
-          <p id="01-pv-home-tab-card-vida-joven text-dark" class="h1">Seguro de robo</p>
+          <p id="01-pv-home-tab-card-vida-joven text-dark" class="h1 fw-bold">Seguro de robo</p>
             <p class="card-text">
                 ¡Sabemos que es vital para ti vivir el momento, y aprovechar
-                al máximo la mejor etapa de tu vida, te ofrecemos nuestras coberturas de Muerte             Accidental, reembolso de gastos médicos por accidente, Hospitalización y muchas más protecciones!
+                al máximo la mejor etapa de tu vida, te ofrecemos nuestras coberturas de Muerte Accidental, reembolso de gastos médicos por accidente, Hospitalización y muchas más protecciones!
             </p>
         </div>
-        <div class="mb-3">
+        <div class="mb-3 mt-3">
             <a id="01-home-tab-card-vida-joven-btn-ver-mas" class="btn btn-volver">
               Ver Más
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
             </a>
           </div>
         </card>
@@ -105,49 +113,72 @@
             <img src="../../build/img/svg/icon-info-alert.svg" class="mt-2" alt="...";>
           </a>
           <div >
-            <p id="01-pv-home-tab-card-vida-joven text-dark" class="h1">Denunciar un siniestro</p>
+            <p id="01-pv-home-tab-card-vida-joven text-dark" class="h1 fw-bold">Denunciar un siniestro</p>
               <p class="card-text">
                   Declara un siniestro contratado.
               </p>
           </div>
           <div class="container-btn gap-2 p-3">
-              <a id="01-pv-home-tab-card-vida-joven-btn-ver-mas" class="btn btn-primary">
+              <a id="01-pv-home-tab-card-vida-joven-btn-ver-mas" class="text-secondary fw-bold" style="text-decoration: none;">
                 Denunciar un siniestro
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
               </a>
             </div>
           </card>
         </section>
 
-          <!--Header-->
-  <section class="header-mobile">
-    <div class="container">
-      <header class="d-flex flex-wrap align-items-center justify-content-md-between py-3">
-        <a id="01-home-navbar-logo-scotia" href="/"
-          class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <img src="../../build/img/svg/scotia-logo-red.svg" alt="Scotia">
-        </a>
-
-        <div class="col-md-6 text-end d-none d-sm-block d-sm-none d-md-block">
-          <a id="01-home-navbar-logo-bnp-paribas" href="#"><img src="../../build/img/svg/bnp.svg"
-              class="logo-bnp mr-4" alt="BNP Paribas Cardif"></a>
-          <a id="01-home-navbar-logo-corredora" href="#"><img src="../../build/img/svg/corredora-color.svg"
-              class="logo-cslc ms-4" alt="Corredora de seguros la Camara"></a>
-        </div>
-      </header>
-    </div>
-
-  </section>
-  <!--Fin Header-->
-
-
+        <section class="card-content-tres">
+          <div class="accordion accordion-flush mb-4" id="accordionFlushExample2">
+            <div id="02-pv-gestionar-tabs-tab-caso-siniestro-acordeon-hospitalizacion" class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingUno2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseUno2" aria-expanded="false" aria-controls="flush-collapseUno2">
+                  <img src="../../src/img/svg/icon-contact-us.svg" alt=""class="me-3">
+                  <h5>¿Necesitas ayuda?</h5>
+                </button>
+              </h2>
+              <div id="flush-collapseUno2" class="accordion-collapse collapse" aria-labelledby="flush-headingUno2"
+                data-bs-parent="#accordionFlushExample">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card-content-tres">
+          <div class="accordion accordion-flush mb-4" id="accordionFlushExample2">
+            <div id="02-pv-gestionar-tabs-tab-caso-siniestro-acordeon-hospitalizacion" class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingUno2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseUno2" aria-expanded="false" aria-controls="flush-collapseUno2">
+                  <img src="../../src/img/svg/icon-information.svg" alt="" class="me-3">
+                  <h5>Legales</h5>
+                </button>
+              </h2>
+              <div id="flush-collapseUno2" class="accordion-collapse collapse" aria-labelledby="flush-headingUno2"
+                data-bs-parent="#accordionFlushExample">
+              </div>
+            </div>
+          </div>
+        </section>
   </main>
 
-  <footer class="bottom">
-      <p class="text-bottom justify-content-end">Casa Matriz Banco Scotiabank Av. Costanera Sur 2710 | © <br/> 2023 Scotiabank All Rights Reserved</p>
-  </footer>
+
+  <footer>
+    <section class="header-mobile">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-md-between py-3">
+            <a id="01-home-navbar-logo-scotia" href="/"
+              class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+              <img src="../../build/img/svg/scotia-logo-red.svg" alt="Scotia">
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="bottom">
+        <p class="text-bottom justify-content-end">Casa Matriz Banco Scotiabank Av. Costanera Sur 2710 | © <br/> 2023 Scotiabank All Rights Reserved</p>
+      </section>
+    </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
