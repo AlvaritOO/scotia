@@ -16,6 +16,15 @@ $blanco: #FFFFFF;
 $primary: $r1;
 $secondary: $azul;
 
+$accordion-button-color: $negro;
+$accordion-icon-active-color:  $negro;
+
+
+
+
+$accordion-button-active-bg:  $g4;
+
+
 //Card
 $card-border-radius: 16px;
 
@@ -58,4 +67,6 @@ h1, h2, h3, h4, h5 {
 
 // Importar Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//../../node_modules/bootstrap/scss/bootstrap.scss
 

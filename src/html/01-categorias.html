@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" class="h-100">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../../build/css/app.css">
+        <link rel="stylesheet" href="../../build/css/app.min.css">
         <title>Scotia - OneInsurance</title>
         <!-- Animate -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -65,7 +66,7 @@
       <img src="../../build/img/Banner.png" alt="Scotia" class="img-cabecera">
       <div class="header--title-container">
         <h1>Seguro de<br/> Robo</h1>
-        <a href="../../index.html" class="header--button" target="_blank">Conocer seguro</a>
+        <a href="" class="header--button" target="_blank">Conocer seguro</a>
       </div>
     </section>
 
@@ -75,37 +76,68 @@
       </div>
     </section>
 
-    <section class="card-content-tres">
-      <div class="accordion mb-4" id="accordionFlushExample">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapse" aria-expanded="false" aria-controls="flush-collapse">
-              <h5>Protección patrimonial</h5>
+    <section class="menu_seguro">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Autos
             </button>
-          <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-heading"
-            data-bs-parent="#accordionFlushExample">
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, ducimus sequi dolor at in temporibus facere ut! Laborum voluptatum repellendus provident odio aspernatur eaque possimus, id, repellat totam eos eveniet.</div>
           </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Vida y salud
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nobis, commodi dolorem cum perspiciatis earum tempora dolore atque magnam et repellat soluta natus eligendi esse possimus voluptate velit, ratione culpa.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Viajes
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eos eligendi laboriosam dolorum dicta, vel autem impedit. Praesentium iste ea facere, non velit quam vel. Aperiam, dolor? Perspiciatis, magnam dolorem.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree4" aria-expanded="false" aria-controls="flush-collapseThree4">
+              Protección patrimonial
+            </button>
+          </h2>
+          <div id="flush-collapseThree4" class="accordion-collapse collapse" aria-labelledby="flush-headingThree4" data-bs-parent="#accordionFlushExample">
+            <section>
+              <card class="card-content text-center" type="button">
+                <a>
+                  <img src="../../build/img/svg/icons-tipo-seguro.svg" class="mt-4 mb-3" alt="...";>
+                </a>
+                <div class="card-body">
+                  <p id="01-pv-home-tab-card-vida-joven text-dark" class="h1 fw-bold">Seguro de robo</p>
+                    <p class="card-text">
+                        ¡Sabemos que es vital para ti vivir el momento, y aprovechar
+                        al máximo la mejor etapa de tu vida, te ofrecemos nuestras coberturas de Muerte Accidental, reembolso de gastos médicos por accidente, Hospitalización y muchas más protecciones!
+                    </p>
+                </div>
+                <div class="mb-3 mt-3">
+                    <a id="01-home-tab-card-vida-joven-btn-ver-mas" class="btn btn-volver">
+                      Ver Más
+                    </a>
+                  </div>
+                </card>
+              </section>
+          </div>
+        </div>
       </div>
     </section>
-
-    <section>
-      <card class="card-content text-center" type="button">
-        <a>
-          <img src="../../build/img/svg/icons-tipo-seguro.svg" class="mt-4 mb-3" alt="...";>
-        </a>
-        <div class="card-body">
-          <p id="01-pv-home-tab-card-vida-joven text-dark" class="h1 fw-bold">Seguro de robo</p>
-            <p class="card-text">
-                ¡Sabemos que es vital para ti vivir el momento, y aprovechar
-                al máximo la mejor etapa de tu vida, te ofrecemos nuestras coberturas de Muerte Accidental, reembolso de gastos médicos por accidente, Hospitalización y muchas más protecciones!
-            </p>
-        </div>
-        <div class="mb-3 mt-3">
-            <a id="01-home-tab-card-vida-joven-btn-ver-mas" class="btn btn-volver">
-              Ver Más
-            </a>
-          </div>
-        </card>
-      </section>
 
       <section >
         <card class="card-content-dos text-center" type="button">
@@ -130,37 +162,31 @@
         </section>
 
         <section class="card-content-tres">
-          <div class="accordion accordion-flush mb-4" id="accordionFlushExample2">
-            <div id="02-pv-gestionar-tabs-tab-caso-siniestro-acordeon-hospitalizacion" class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingUno2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseUno2" aria-expanded="false" aria-controls="flush-collapseUno2">
+          <div class="accordion mb-4" id="accordionFlushExample">
+                <button class="accordion-button accordion-button-alert collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse">
                   <img src="../../src/img/svg/icon-contact-us.svg" alt=""class="me-3">
                   <h5>¿Necesitas ayuda?</h5>
                 </button>
-              </h2>
-              <div id="flush-collapseUno2" class="accordion-collapse collapse" aria-labelledby="flush-headingUno2"
+              <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading"
                 data-bs-parent="#accordionFlushExample">
               </div>
-            </div>
           </div>
         </section>
+
         <section class="card-content-tres">
-          <div class="accordion accordion-flush mb-4" id="accordionFlushExample2">
-            <div id="02-pv-gestionar-tabs-tab-caso-siniestro-acordeon-hospitalizacion" class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingUno2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseUno2" aria-expanded="false" aria-controls="flush-collapseUno2">
+          <div class="accordion mb-4" id="accordionFlushExample">
+                <button class="accordion-button accordion-button-alert collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse">
                   <img src="../../src/img/svg/icon-information.svg" alt="" class="me-3">
                   <h5>Legales</h5>
                 </button>
-              </h2>
-              <div id="flush-collapseUno2" class="accordion-collapse collapse" aria-labelledby="flush-headingUno2"
+              <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading"
                 data-bs-parent="#accordionFlushExample">
               </div>
-            </div>
           </div>
         </section>
+
   </main>
 
 
@@ -180,11 +206,11 @@
       </section>
     </footer>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  
 </body>
 </html>
