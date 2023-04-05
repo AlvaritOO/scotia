@@ -105,6 +105,17 @@
     border-radius: 8px;
 }
 
+.card-content-planes {
+    position: relative;
+    align-items: center;
+    padding: 0px;
+    width: 279px;
+    height: 64px;
+    margin-top: 0px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
 .menu_seguro {
     width: 375px;
     text-align: center;
@@ -127,10 +138,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 54px 24px;
-    gap: 42px;
     width: 375px;
-    height: 1622px;
+    height: 1800px;
+    background: $r2;
+}
+
+.cobertura-exclusiones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 1100px;
+    background: $blanco;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 636px;
     background: $r2;
 }
 
@@ -144,6 +171,18 @@
     font-size: 13px;
     text-align: center;
     color: $g1;
+}
+
+.p-planes {
+    display: flex;
+    flex-direction: column;
+
+    width: 327px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: $blanco;
 }
 
 .accordion-button-alert {

@@ -37,6 +37,22 @@
     border-radius: 8px;
 }
 
+.button-planes {
+
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 120px;
+    height: 48px;
+    background: $r4;
+    border-radius: 8px;
+}
+
 .btn.btn-volver {
     width: 150px;
     border: 2px solid $r4;
