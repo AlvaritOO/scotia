@@ -10809,6 +10809,18 @@ textarea.form-control-lg {
   color: #333333;
 }
 
+.titulo_planes {
+  width: 375px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  top: 450px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
 .proteccion_patrimonial {
   position: absolute;
   width: 375px;
@@ -10899,14 +10911,32 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 24px;
   width: 375px;
-  height: 286px;
+  height: 310px;
   background: #F6F6F6;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+}
+
+.conoce-planes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 54px 24px;
+  gap: 42px;
+  width: 375px;
+  height: 1622px;
+  background: #A6000E;
+}
+
+.p-podras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #333333;
 }
 
 .accordion-button-alert {

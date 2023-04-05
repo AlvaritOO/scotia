@@ -12,6 +12,18 @@
     color: $g1;
 }
 
+.titulo_planes {
+    width: 375px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    top: 450px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: $blanco;
+}
+
 .proteccion_patrimonial {
     position: absolute;
     width: 375px;
@@ -103,21 +115,35 @@
 }
 
 .requisitos {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 24px;
-
     width: 375px;
-    height: 286px;
-
+    height: 310px;
     background: $g4;
+}
 
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+.conoce-planes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px 24px;
+    gap: 42px;
+    width: 375px;
+    height: 1622px;
+    background: $r2;
+}
+
+.p-podras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: $g1;
 }
 
 .accordion-button-alert {
