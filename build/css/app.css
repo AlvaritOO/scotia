@@ -10895,6 +10895,20 @@ textarea.form-control-lg {
   top: 450px;
 }
 
+.requisitos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 24px;
+  width: 375px;
+  height: 286px;
+  background: #F6F6F6;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
 .accordion-button-alert {
   text-align: center;
   background-color: #FFFFFF;
@@ -11053,11 +11067,6 @@ ul::-webkit-scrollbar {
   padding: 0px 24px;
   width: 375px;
   height: 96px;
-}
-
-.img-cabecera {
-  width: 375px;
-  height: 320px;
 }
 
 .header--title-container {
